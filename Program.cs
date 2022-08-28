@@ -12,3 +12,5 @@ System.Console.WriteLine($"Qo'shish: {num1} + {num2} = {num1 + num2}");
 System.Console.WriteLine($"Ayrish: {num1} - {num2} = {num1 - num2}");
 System.Console.WriteLine($"Ko'paytirish: {num1} * {num2} = {num1 * num2}");
 System.Console.WriteLine($"Bo'lish: {num1} / {num2} = {num1 / num2}");    
+
+System.Console.WriteLine("Done by Doniyorek");
