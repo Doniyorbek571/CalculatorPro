@@ -7,7 +7,12 @@ num1 = int.Parse(Console.ReadLine());
 
 System.Console.Write("Second Number: ");
 num2 = int.Parse(Console.ReadLine());
-
+if(num1 > num2)
+    System.Console.WriteLine($"{num1} > {num2}");
+else if(num1 < num2)
+    System.Console.WriteLine($"{num1} < {num2}");
+else 
+    System.Console.WriteLine($"{num1} == {num2}");
 System.Console.WriteLine($"Qo'shish: {num1} + {num2} = {num1 + num2}");
 System.Console.WriteLine($"Ayrish: {num1} - {num2} = {num1 - num2}");
 System.Console.WriteLine($"Ko'paytirish: {num1} * {num2} = {num1 * num2}");
